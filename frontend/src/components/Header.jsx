@@ -1,5 +1,4 @@
-import React from 'react';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../context/CartContext.jsx';
 import { ShoppingCart } from 'lucide-react';
 
 const Header = () => {

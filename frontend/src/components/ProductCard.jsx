@@ -1,8 +1,8 @@
-import React from 'react';
-import { useCart } from '../context/CartContext';
-import { ShoppingCart, Plus } from 'lucide-react';
+import { useCart } from '../context/CartContext.jsx';
+import {  Plus } from 'lucide-react';
 
 const ProductCard = ({ product }) => {
+  console.log(product);
   const { addToCart } = useCart();
 
   return (

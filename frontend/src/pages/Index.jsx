@@ -1,23 +1,12 @@
+
 import React from 'react';
 import { CartProvider } from '../context/CartContext';
 import Header from '../components/Header';
 import ProductCard from '../components/ProductCard';
 import CartSidebar from '../components/CartSidebar';
-import { products } from '../data/products';
+import { products } from '../data/products'; // Asegurate de tener tu array de productos
 
-import React from 'react';
-import { CartProvider } from './context/CartContext';
-import Header from './components/Header';
-import ProductCard from './components/ProductCard';
-import CartSidebar from './components/CartSidebar';
-import { products } from './data/products'; // Asegurate de tener tu array de productos
 
-import React from 'react';
-import { CartProvider } from './context/CartContext';
-import Header from './components/Header';
-import ProductCard from './components/ProductCard';
-import CartSidebar from './components/CartSidebar';
-import { products } from './data/products'; // Asegurate de tener tu array de productos
 
 const Index = () => {
   return (
@@ -31,6 +20,7 @@ const Index = () => {
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
+          <p> Arreglado por Fabrii ♥</p>
         </main>
         <CartSidebar />
       </div>
